@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>descendent lists</title>
+<style>
+ ol > li {
+    color: blue;
+
+}
+</style>
+</head>
+<body>
+
+
+<ol>
+    an ordered list
+    <li>fist item</li>
+    <li>second item</li>
+   an unordered list
+<ul>
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</li>
+</ul>
+<li>third item</li>
+
+    
+</ol>
+</body>
+
+</html>
+
