@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+      .description-box {
+        width: 80%;
+        background-color: #f39c12;
+        border: 2px solid #e67e22;
+        border-radius: 5px;
+        padding: 20px;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        gap: 20px;
+        justify-content: center;
+      }
+      .box {
+        width: 300px;
+        height: 200px;
+        background-color: #3498db;
+        border: 2px solid #2980b9;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 16px;
+        padding: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="description-box">
+      Below is a flexbox layout demonstrating responsive boxes arranged using the
+      <strong>Flexbox</strong> model. Each box is styled with a consistent size, color, and alignment,
+      and the layout wraps automatically based on screen size.
+    </div>
+
+    <div class="container">
+      <div class="box">
+        <p>Box 1 contains a paragraph. The flexbox layout ensures responsiveness. It adapts well to different screen sizes.</p>
+      </div>
+      <div class="box">
+        <p>Box 2 is another example of flexbox usage. Each box is designed with a consistent size and color. The layout automatically wraps when needed.</p>
+      </div>
+      <div class="box">
+        <p>Box 3 demonstrates alignment in a flex container. Flexbox provides a clean, efficient way to arrange elements. It can easily accommodate different content.</p>
+      </div>
+      <div class="box">
+        <p>Box 4 is part of the same responsive design. Flexbox allows for flexibility in both horizontal and vertical alignment. This layout adapts based on the screen size.</p>
+      </div>
+      <div class="box">
+        <p>Box 5 contains more content for display. The flexbox model ensures the content is neatly aligned. The design remains consistent across devices.</p>
+      </div>
+      <div class="box">
+        <p>Box 6 is another example in this layout. The use of flexbox helps keep the design tidy. All boxes are evenly spaced and aligned.</p>
+      </div>
+      <div class="box">
+        <p>Box 7 continues the flexbox layout theme. Flexbox helps distribute space efficiently. Each box contains relevant information for display.</p>
+      </div>
+      <div class="box">
+        <p>Box 8 is the final example. The design remains consistent across all boxes. Flexbox allows for a responsive, flexible arrangement of elements.</p>
+      </div>
+    </div>
+  </body>
+</html>
